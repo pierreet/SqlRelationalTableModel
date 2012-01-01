@@ -1,0 +1,6 @@
+SqlRelationalTableModel inherited from QSqlelationalTableModel
+Allow :
+	-Add other field
+	-Add GROUP BY clause
+	-Add new kind of relation (LEFT, RIGHT, ...) ( eg: model->setRelation(column, SqlRelation(tableName,idColumn,displayColumn, SqlRelation::LEFT)); )
+	-Add editable flag ( eg: model->setEditableFlagForColumn(column,false); )
